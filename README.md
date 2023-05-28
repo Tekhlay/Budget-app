@@ -190,6 +190,6 @@ I would like to thank @Microverse online school.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Tekhlay/my-blog/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Tekhlay/Budget-app/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
