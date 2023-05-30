@@ -1,6 +1,6 @@
 class GroupsController < ApplicationController
   before_action :set_group, only: %i[show edit update destroy]
-  before_action :authenticate_user!
+  #before_action :authenticate_user!
 
   # GET /groups or /groups.json
   def index
@@ -14,7 +14,7 @@ class GroupsController < ApplicationController
   # GET /groups/new
   def new
     @group = Group.new
-    @group.icon.attach(params[:icon])
+   # @group.icon.attach(params[:icon])
   end
 
   # GET /groups/1/edit
@@ -24,7 +24,7 @@ class GroupsController < ApplicationController
   def create
     @group = Group.new(group_params)
     @group.author = current_user
-    @group.icon.attach(params[:icon])
+    @group.icon.attach(group_params[:icon])
     respond_to do |format|
       if @group.save
         format.html { redirect_to @group, notice: 'Group was successfully created.' }
