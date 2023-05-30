@@ -128,14 +128,6 @@ You can deploy this project using: Herekou
 - GitHub: [@Tekhlay](https://github.com/Tekhlay)
 - Twitter: [@Tekhlay](https://twitter.com/Tekhlayb12)
 - LinkedIn: [Tekhlay](https://linkedin.com/in/tekhlay)
-
-👤 **Uche**
-
-- GitHub: [@uchexm](https://github.com/uchexm)
-- Twitter: [@nwakauc](https://twitter.com/Nwakauc)
-- LinkedIn: [@nwakauc](https://www.linkedin.com/in/nwakauc/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
