@@ -1,6 +1,13 @@
-<h2>Sign up</h2>
-
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<header class="bg-primary text-white">
+  <nav class='d-flex justify-content-between p-2 align-item-center'>
+    <a herf="#">Back</a>
+    <h2> Register </h2>
+    <p> Next</p>
+  </nav>
+</header>
+
+
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field">
@@ -22,7 +29,7 @@
   </div>
 
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit "Register" %>
   </div>
 <% end %>
 
