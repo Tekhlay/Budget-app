@@ -1,0 +1,2 @@
+class ExpenseGroup < ApplicationRecord
+end
