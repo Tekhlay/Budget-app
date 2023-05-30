@@ -27,7 +27,7 @@
 
 # 📖 [my blog] <a name="about-project"></a>
 
-**[my blog ]** is a web application developed with ruby and rails and allows users to read post and create new posts plus comments.
+**[Budget app ]** is a web application developed with ruby and rails which helps every one how to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,7 +85,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Tekhlay/my-blog.git
+  git clone https://github.com/Tekhlay/Budget-app.git
 ```
 
 ### Install
@@ -111,11 +111,12 @@ To run tests, run the following command:
 
 ```sh
   bin/rails test
+  rspec spec
 ```
 
 ### Deployment
 
-You can deploy this project using: Herekou
+You can deploy this project using: Herekou or vercle.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,8 +133,8 @@ You can deploy this project using: Herekou
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add controller]**
-- [ ] **[Add view]**
+- [ ] **[Add api documentation]**
+- [ ] **[Add pagination]**
 - [ ] **[automated testing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,7 +145,7 @@ You can deploy this project using: Herekou
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Tekhlay/my-blog/issues).
+Feel free to check the [issues page](https://github.com/Tekhlay/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +161,7 @@ If you like this project please share with your partners.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @Microverse online school.
+I would like to thank @Microverse online school and Behance for the Design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
