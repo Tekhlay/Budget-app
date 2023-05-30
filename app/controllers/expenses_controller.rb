@@ -13,7 +13,7 @@ class ExpensesController < ApplicationController
   # GET /expenses/new
   def new
     @expense = Expense.new
-    @expense.image.attach(params[:image])
+    @categories = Group.where(author_id: current_user.id)
   end
 
   # GET /expenses/1/edit
@@ -21,9 +21,15 @@ class ExpensesController < ApplicationController
 
   # POST /expenses or /expenses.json
   def create
-    @expense = Expense.new(expense_params)
-    @expense.author = current_user
-    @expense.image.attach(params[:image])
+    arguments = expense_params
+    @expense = Expense.new(name: arguments[:name], amount: arguments[:amount])
+    @expense.author_id = current_user.id
+    @categories_ids = arguments[:group_ids]
+    @categories_ids.each do |id|
+      group = Group.find(id) unless id == ''
+      @expense.groups.push(group) unless group.nil?
+    end
+
     respond_to do |format|
       if @expense.save
         format.html { redirect_to @expense, notice: 'Expense was successfully created.' }
@@ -53,7 +59,6 @@ class ExpensesController < ApplicationController
 
   # DELETE /expenses/1 or /expenses/1.json
   def destroy
-    @expense.image.purge
     @expense.destroy
     respond_to do |format|
       format.html { redirect_to expenses_url, notice: 'Expense was successfully destroyed.' }
@@ -71,6 +76,6 @@ class ExpensesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def expense_params
-    params.require(:expense).permit(:name, :amount, :author_id, :image, :group_id)
+    params.require(:expense).permit(:name, :amount, group_ids: [])
   end
 end
