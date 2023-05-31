@@ -170,7 +170,7 @@ If you like this project please share with your partners.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - [x] I would like to thank @Microverse online school and
-- [x] Credit to [Gregoire Vella on Behance] (https://www.behance.net/gregoirevella) the author of the original design.
+- [x] Credit to [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) the [author of the original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
