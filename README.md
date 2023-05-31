@@ -169,7 +169,8 @@ If you like this project please share with your partners.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @Microverse online school and Behance for the Design.
+-[x] I would like to thank @Microverse online school and
+= x] Credit to [Gregoire Vella on Behance] (https://www.behance.net/gregoirevella) the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
