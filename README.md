@@ -70,6 +70,7 @@
 
 
 - [Live Demo Link](https://tekhlay.github.io/TO-DO-List/dist/)
+- [Video Explaination Link](https://www.loom.com/share/48fdcc1b13c0479c8736d86d65dec509)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
