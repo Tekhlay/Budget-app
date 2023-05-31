@@ -8,6 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -25,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [my blog] <a name="about-project"></a>
+# 📖 [Budget App] <a name="about-project"></a>
 
-**[my blog ]** is a web application developed with ruby and rails and allows users to read post and create new posts plus comments.
+**[Budget app ]** is a web application developed with ruby and rails which helps every one how to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,7 +64,14 @@
 - **[View]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://budget-app-4fhu.onrender.com/)
+- [Video Explaination Link](https://www.loom.com/share/48fdcc1b13c0479c8736d86d65dec509)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -85,7 +93,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Tekhlay/my-blog.git
+  git clone https://github.com/Tekhlay/Budget-app.git
 ```
 
 ### Install
@@ -111,11 +119,12 @@ To run tests, run the following command:
 
 ```sh
   bin/rails test
+  rspec spec
 ```
 
 ### Deployment
 
-You can deploy this project using: Herekou
+You can deploy this project using: Herekou or vercle.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,20 +137,12 @@ You can deploy this project using: Herekou
 - GitHub: [@Tekhlay](https://github.com/Tekhlay)
 - Twitter: [@Tekhlay](https://twitter.com/Tekhlayb12)
 - LinkedIn: [Tekhlay](https://linkedin.com/in/tekhlay)
-
-👤 **Uche**
-
-- GitHub: [@uchexm](https://github.com/uchexm)
-- Twitter: [@nwakauc](https://twitter.com/Nwakauc)
-- LinkedIn: [@nwakauc](https://www.linkedin.com/in/nwakauc/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add controller]**
-- [ ] **[Add view]**
+- [ ] **[Add api documentation]**
+- [ ] **[Add pagination]**
 - [ ] **[automated testing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -152,7 +153,7 @@ You can deploy this project using: Herekou
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Tekhlay/my-blog/issues).
+Feel free to check the [issues page](https://github.com/Tekhlay/Budget-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +169,8 @@ If you like this project please share with your partners.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @Microverse online school.
+- I would like to thank @Microverse online school and
+- Credit to: [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) the [author of the original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,6 +192,6 @@ I would like to thank @Microverse online school.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Tekhlay/my-blog/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/Tekhlay/Budget-app/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
