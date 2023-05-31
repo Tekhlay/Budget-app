@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [my blog] <a name="about-project"></a>
+# 📖 [Budget App] <a name="about-project"></a>
 
 **[Budget app ]** is a web application developed with ruby and rails which helps every one how to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
@@ -169,8 +169,8 @@ If you like this project please share with your partners.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
--[x] I would like to thank @Microverse online school and
-= x] Credit to [Gregoire Vella on Behance] (https://www.behance.net/gregoirevella) the author of the original design.
+- [x] I would like to thank @Microverse online school and
+- [x] Credit to [Gregoire Vella on Behance] (https://www.behance.net/gregoirevella) the author of the original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
